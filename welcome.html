@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="images/nyu-favicon.ico" type="image/nyu-favicon.icon"> 
+    <title>Home Page</title>
+
+    <style>
+        body {
+            height: 100vh;
+            margin: 0;
+            background: radial-gradient(circle, #273E5A, #000000);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            transition: opacity 0.5s; 
+        }
+
+        .logo-container {
+            cursor: pointer;
+            animation: goldGlowEffect 1.5s infinite alternate;
+        }
+
+        .logo-container:hover {
+            animation: goldGlowEffectHover 1.5s infinite alternate;
+        }
+
+        .logo-container img {
+            width: 400px;
+          
+        }
+        .continue-text {
+            color: #ffffff; 
+            text-align: center;
+            animation: fadeIn 2s;
+            margin-top: 1px;
+            margin-bottom: 30px;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
+        @keyframes goldGlowEffect {
+            0% {
+                box-shadow: 0 0 5px #efdfb7, 0 0 10px #efdfb7, 0 0 15px #efdfb7, 0 0 20px #efdfb7, 0 0 25px #DAA520, 0 0 30px #efdfb7, 0 0 35px #DAA520;
+            }
+            100% {
+                box-shadow: 0 0 10px #efdfb7, 0 0 20px #efdfb7, 0 0 30px #efdfb7, 0 0 40px #efdfb7, 0 0 50px #DAA520, 0 0 60px #efdfb7, 0 0 70px #DAA520;
+            }
+        }
+
+        @keyframes goldGlowEffectHover {
+            0% {
+                box-shadow: 0 0 15px #efdfb7, 0 0 30px #efdfb7, 0 0 45px #efdfb7, 0 0 60px #efdfb7, 0 0 75px #DAA520, 0 0 90px #DAA520, 0 0 105px #DAA520;
+            }
+            100% {
+                box-shadow: 0 0 20px #efdfb7, 0 0 40px #efdfb7, 0 0 60px #efdfb7, 0 0 80px #efdfb7, 0 0 100px #DAA520, 0 0 120px #DAA520, 0 0 140px #DAA520;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="logo-container" onclick="redirectToWelcomePage()">
+        <img src="images/logo.png" alt="Logo">
+        <div class="continue-text">Click to continue</div> 
+    </div>
+
+    <script>
+        function redirectToWelcomePage() {
+            document.body.style.opacity = '0'; 
+            setTimeout(() => {
+                window.location.href = "home.html";
+            }, 500); 
+        }
+    </script>
+</body>
+
+</html>
+
