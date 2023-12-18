@@ -1,0 +1,457 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: radial-gradient(circle, #273E5A, #000000);
+    font-family: 'Avenir', 'Alt Gothic ExCd ATF', Arial, sans-serif;
+    color: #efdfb7;
+}
+.menu-item.active {
+color: #ffffff; 
+padding-bottom: 3px; 
+border-bottom: 1px solid #ffffff; 
+}
+
+.menu-item:hover,
+.menu-item.active:hover {
+color: #ffffff; 
+border-bottom: 1px solid #ffffff; 
+}
+.hidden {
+    display: none;
+}
+
+.menu-container {
+    width: 100%;
+    background: url('images/menu.png') repeat-x;
+    background-size: contain;
+    padding: 15px 0;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    padding-left: 150px;
+}
+
+.nyu-logo {
+    margin-right: 40px;
+    width: 45px;
+}
+
+.menu-item {
+    margin-right: 20px;
+    text-decoration: none;
+    color: #efdfb7;
+    text-transform: uppercase;
+    transition: color 0.3s;
+}
+
+.center-logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: calc(100vh - 60px);
+}
+
+.center-logo {
+    max-width: 50%;
+    max-height: 50%;
+}
+
+.menu-item:hover {
+    color: #ffffff;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.event-details {
+    position: absolute;
+    width: 100px;
+}
+
+.event-image {
+    width: 100%;
+    transition: all 0.3s ease;
+}
+
+.event-details.expanded {
+    position: absolute;
+    z-index: 10;
+}
+
+.event-details::before {
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: 100%;
+    width: 2px;
+    background: #efdfb7;
+}
+
+.event-details.expanded::before {
+    transition: height 0.3s ease;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: radial-gradient(circle, #273E5A, #000000);
+    font-family: 'Avenir', 'Alt Gothic ExCd ATF', Arial, sans-serif;
+    color: #efdfb7;
+}
+.menu-item.active {
+color: #ffffff; 
+padding-bottom: 3px; 
+border-bottom: 1px solid #ffffff; 
+}
+
+.menu-item:hover,
+.menu-item.active:hover {
+color: #ffffff; 
+border-bottom: 1px solid #ffffff; 
+}
+.menu-container {
+    width: 100%;
+    background: url('images/menu.png') repeat-x;
+    background-size: contain;
+    padding: 15px 0;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    padding-left: 150px;
+}
+
+.nyu-logo {
+    margin-right: 40px;
+    width: 45px;
+}
+
+.menu-item {
+    margin-right: 20px;
+    text-decoration: none;
+    color: #efdfb7;
+    text-transform: uppercase;
+    transition: color 0.3s;
+}
+
+.menu-item:hover {
+    color: #ffffff;
+}
+
+.center-logo-container {
+    height: auto; 
+}
+
+.center-logo {
+    max-width: 50%;
+    max-height: 50%;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+h1 {
+    color: #ffffff;
+}
+
+.contact-form {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 400px;
+    width: 100%;
+}
+
+label {
+    color: #efdfb7;
+    margin-top: 10px;
+}
+
+input, textarea {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.2);
+    color: #efdfb7;
+}
+
+input[type="submit"] {
+    background: #efdfb7;
+    color: #273E5A;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s, color 0.3s;
+}
+
+input[type="submit"]:hover {
+    background: #ffffff;
+    color: #273E5A;
+}
+
+textarea {
+    resize: vertical;
+    min-height: 150px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: radial-gradient(circle, #273E5A, #000000);
+    font-family: 'Avenir', 'Alt Gothic ExCd ATF', Arial, sans-serif;
+    color: #efdfb7;
+}
+.menu-container {
+    width: 100%;
+    background: url('images/menu.png') repeat-x;
+    background-size: contain;
+    padding: 15px 0;
+}
+.menu-item.active {
+color: #ffffff; 
+padding-bottom: 3px; 
+border-bottom: 1px solid #ffffff; 
+}
+
+.menu-item:hover,
+.menu-item.active:hover {
+color: #ffffff; 
+border-bottom: 1px solid #ffffff; 
+}
+.menu {
+    display: flex;
+    align-items: center;
+    padding-left: 150px;
+}
+
+.nyu-logo {
+    margin-right: 40px;
+    width: 45px;
+}
+
+.menu-item {
+    margin-right: 20px;
+    text-decoration: none;
+    color: #efdfb7;
+    text-transform: uppercase;
+    transition: color 0.3s;
+}
+
+.menu-item:hover {
+    color: #ffffff;
+}
+
+.center-logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: calc(100vh - 60px);
+}
+
+.center-logo {
+    max-width: 50%;
+    max-height: 50%;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+h1, h2 {
+    color: #ffffff;
+}
+p {
+    color: #efdfb7;
+    max-width: 600px;
+    text-align: center;
+}
+.credit-section {
+    margin-bottom: 20px;
+}
+.credit-section p {
+    text-align: left;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: radial-gradient(circle, #273E5A, #000000);
+    font-family: 'Avenir', 'Alt Gothic ExCd ATF', Arial, sans-serif;
+    color: #efdfb7; 
+}
+.menu-item.active {
+color: #ffffff; 
+padding-bottom: 3px; 
+border-bottom: 1px solid #ffffff; 
+}
+
+.menu-item:hover,
+.menu-item.active:hover {
+color: #ffffff; 
+border-bottom: 1px solid #ffffff; 
+}
+
+.hidden {
+    display: none;
+}
+
+.menu-container {
+    width: 100%;
+    background: url('images/menu.png') repeat-x;
+    background-size: contain;
+    padding: 15px 0;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    padding-left: 150px;
+}
+
+.nyu-logo {
+    margin-right: 40px;
+    width: 45px;
+}
+
+.menu-item {
+    margin-right: 20px;
+    text-decoration: none;
+    color: #efdfb7;
+    text-transform: uppercase;
+    transition: color 0.3s;
+    margin-right: 20px;
+}
+
+.menu-item:hover {
+    color: #ffffff;
+}
+
+.center-logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: calc(100vh - 60px);
+}
+
+.center-logo {
+    max-width: 50%;
+    max-height: 50%;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+h1 {
+    color: #ffffff;
+}
+p, ul, li {
+    color: #efdfb7;
+    max-width: 600px;
+    text-align: center;
+}
+ul {
+    list-style-position: inside;
+    margin: 0;
+    padding: 0;
+}
+li {
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+
+#timeline {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.year {
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.4);
+    
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+.event {
+    position: relative;
+    cursor: pointer;
+}
+
+.default-image, .hover-image {
+    width: 100px; 
+    height: auto;
+    transition: opacity 0.3s;
+}
+
+.hover-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+}
+
+.event:hover .hover-image {
+    opacity: 1;
+}
+
+.event:hover .default-image {
+    opacity: 0;
+}
+
+.event:hover .hover-image {
+    opacity: 1;
+}
+
+.event .hover-image.enlarge {
+    transform: scale(1.2); 
+    transition: transform 0.5s ease-in-out;
+}
+
